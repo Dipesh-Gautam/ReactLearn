@@ -1,11 +1,13 @@
-import React from 'react'
-import UseStates from './components/UseStates'
+import React from "react";
+import UseStates from "./components/UseStates";
+import UseEffects from "./components/UseEffects";
 function App() {
   return (
     <div>
-      <UseStates />
+      {/* <UseStates /> */}
+      <UseEffects />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
